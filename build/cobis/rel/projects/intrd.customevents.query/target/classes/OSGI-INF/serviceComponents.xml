@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.customevents.query.Q_CLIEENNT_KV80_QueryEvent">
+        <implementation class="com.cobiscorp.cobis.intrd.customevents.query.Q_CLIEENNT_KV80_QueryEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.QueryEventBuilder"/>
+        </service>
+        <property name="query.id" type="String" value="Q_CLIEENNT_KV80"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.customevents.query.Q_CLIEENNT_KV80_QueryEvent"/>
+        <reference name="iExecuteQueryQ_CLIEENNT_KV80" interface="com.cobiscorp.designer.api.customization.IExecuteQuery" cardinality="1..1" policy="dynamic" target="(&amp;(query.version=1.0.0)(query.id=Q_CLIEENNT_KV80))" bind="setiExecuteQueryQ_CLIEENNT_KV80" unbind="unsetiExecuteQueryQ_CLIEENNT_KV80"/>
+        <reference name="bLI4548_bli_buscarcliente" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI4548_bli_buscarcliente)" bind="setBLI4548_bli_buscarcliente" unbind="unsetBLI4548_bli_buscarcliente"/>
+    </scr:component>
+</components>

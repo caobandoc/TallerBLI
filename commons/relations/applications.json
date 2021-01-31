@@ -35,7 +35,7 @@
 		"forms": {
 			"INTRD": [
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "INTRD",
 					"name": "CuentaNueva",
 					"subModuleId": "CNTAS",

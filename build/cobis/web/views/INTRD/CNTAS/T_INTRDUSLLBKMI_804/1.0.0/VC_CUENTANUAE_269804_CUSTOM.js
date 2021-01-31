@@ -77,6 +77,13 @@ task.executeCommand.VA_VABUTTONGXXKGJN_951498 = function(  entities, executeComm
 };
 
 	
+//Start signature to Callback event to VA_VABUTTONGXXKGJN_951498
+task.executeCommandCallback.VA_VABUTTONGXXKGJN_951498 = function(entities, executeCommandCallbackEventArgs) {
+     //here your code
+};
+
+
+	
 
 //Entity: Cuenta
 //Cuenta. (Button) View: CuentaNueva
@@ -104,12 +111,26 @@ task.executeCommand.VA_VABUTTONLBISLMH_184498 = function(  entities, executeComm
 };
 
 	
+//Start signature to Callback event to VA_VABUTTONLBISLMH_184498
+task.executeCommandCallback.VA_VABUTTONLBISLMH_184498 = function(entities, executeCommandCallbackEventArgs) {
+     //here your code
+};
+
+
+	
 //ClienteQuery Entity: Cliente
 task.executeQuery.Q_CLIEENNT_KV80 = function(executeQueryEventArgs){
     executeQueryEventArgs.commons.execServer = true;
     //executeQueryEventArgs.commons.serverParameters.Cliente = true;
     executeQueryEventArgs.parameters.cedula = executeQueryEventArgs.commons.api.vc.model.BusquedaCliente.codigo;
 };
+
+	
+//Start signature to Callback event to Q_CLIEENNT_KV80
+task.executeQueryCallback.Q_CLIEENNT_KV80 = function(entities, executeQueryCallbackEventArgs) {
+     //here your code
+};
+
 
 
 

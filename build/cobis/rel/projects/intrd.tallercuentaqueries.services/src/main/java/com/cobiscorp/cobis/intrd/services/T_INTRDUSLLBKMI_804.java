@@ -1,6 +1,6 @@
 /*
  * Archivo: T_INTRDUSLLBKMI_804.java
- * Fecha: 2021-01-31T15:56:50Z
+ * Fecha: 2021-01-31T18:35:55Z
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier

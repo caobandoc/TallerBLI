@@ -1,0 +1,4 @@
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI4548_bli_buscarcliente.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI2498_bli_buscarcliente.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI4005_bli_insertarcuentaahorros.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI6487_bli_insertarcuentacorriente.class

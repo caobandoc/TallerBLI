@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI2498_bli_buscarcliente">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI2498_bli_buscarcliente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD" private="false"/>
+        <property name="bli.id" type="String" value="BLI2498_bli_buscarcliente" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI2498_bli_buscarcliente" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI4005_bli_insertarcuentaahorros">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI4005_bli_insertarcuentaahorros"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD" private="false"/>
+        <property name="bli.id" type="String" value="BLI4005_bli_insertarcuentaahorros" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI4005_bli_insertarcuentaahorros" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI4548_bli_buscarcliente">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI4548_bli_buscarcliente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD" private="false"/>
+        <property name="bli.id" type="String" value="BLI4548_bli_buscarcliente" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI4548_bli_buscarcliente" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI6487_bli_insertarcuentacorriente">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI6487_bli_insertarcuentacorriente"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD" private="false"/>
+        <property name="bli.id" type="String" value="BLI6487_bli_insertarcuentacorriente" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI6487_bli_insertarcuentacorriente" private="false"/>
+    </scr:component>
+</components>

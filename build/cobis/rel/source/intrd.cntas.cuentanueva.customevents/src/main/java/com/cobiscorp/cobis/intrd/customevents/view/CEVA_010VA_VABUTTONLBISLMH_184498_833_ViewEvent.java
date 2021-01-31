@@ -1,6 +1,6 @@
 /*
  * Archivo: VW_CUENTANUAV_498_ViewEvent.java
- * Fecha: 31/01/2021 10:56:50 AM
+ * Fecha: 31/01/2021 01:35:55 PM
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier
