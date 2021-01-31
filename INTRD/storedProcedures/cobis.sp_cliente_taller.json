@@ -1,0 +1,129 @@
+{
+	"filename": "E:\\TRABAJO\\Designer\\SP\\sp\\sp_cliente_taller.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_cliente_taller",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn_branch"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_culture"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_apellido"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_telefono"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cedula"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nacionalidad"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_id"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "1fec0c2b-4939-43fb-b8ed-dc550d7cf8e9",
+				"columns": [
+					"codigo",
+					" nombre",
+					" apellido",
+					" cedula"
+				],
+				"editMode": true,
+				"queryText": "SELECT"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

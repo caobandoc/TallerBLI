@@ -1,0 +1,97 @@
+{
+	"CMBOS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDBANOJWGX_697": {
+				"name": "FormEstadoCivil"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"CNTAS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDUSLLBKMI_804": {
+				"name": "CuentaNueva"
+			}
+		},
+		"Queries": {
+			"Q_CLIEENNT_KV80": {
+				"name": "ClienteQuery"
+			}
+		}
+	},
+	"Entities": {
+		"EN_1ZQHWOKSZ_262": {
+			"name": "EstadoCivil"
+		},
+		"EN_BUSQUEDNA_124": {
+			"name": "BusquedaCliente"
+		},
+		"EN_CLIENTEWG_614": {
+			"name": "Cliente"
+		},
+		"EN_CUENTADOT_496": {
+			"name": "CuentaDestino"
+		},
+		"EN_CUENTAOEI_615": {
+			"name": "CuentaOrigen"
+		},
+		"EN_CUENTAYHV_494": {
+			"name": "Cuenta"
+		},
+		"EN_INFOESTDV_479": {
+			"name": "InfoEstadoCivil"
+		},
+		"EN_PERSONAMI_230": {
+			"name": "Persona"
+		},
+		"EN_SUMARZHSD_890": {
+			"name": "Suma"
+		}
+	},
+	"FRMCN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDYRASIXRJ_820": {
+				"name": "FormularioCuentas"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"FRMLR": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDSBLQRIHP_688": {
+				"name": "EventosCliente"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"OPRCN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDTGGRJEYF_486": {
+				"name": "Calculadora"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	}
+}

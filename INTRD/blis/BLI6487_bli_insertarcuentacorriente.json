@@ -1,0 +1,88 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_CUENTAYHV_494",
+			"module": {
+				"moduleId": "INTRD",
+				"moduleName": "Introduccion"
+			},
+			"name": "Cuenta"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "2518"
+		},
+		{
+			"attributeId": "AT39_SALDOZFP494",
+			"bddType": "float",
+			"dataType": "DOUBLE",
+			"direction": "in",
+			"entityId": "EN_CUENTAYHV_494",
+			"format": "",
+			"name": "@i_saldo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT84_NUMEROTE494",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CUENTAYHV_494",
+			"format": "",
+			"name": "@i_numero_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT91_CODIGOTL494",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CUENTAYHV_494",
+			"format": "",
+			"name": "@i_ced_cliente",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		}
+	],
+	"name": "BLI_insertarCuentaCorriente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI6487_bli_insertarcuentacorriente",
+	"patternName": "BLI_insertarCuentaCorriente",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g1_sp_cuenta_corriente",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

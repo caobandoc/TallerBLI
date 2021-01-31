@@ -1,0 +1,30 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONRBYOMYH_890583",
+		"controlName": "VA_VABUTTONRBYOMYH_890583",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Suma",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONZYRCTVT_165583",
+		"controlName": "VA_VABUTTONZYRCTVT_165583",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Suma",
+		"eventsType": "visualAttributeEventType"
+	}
+]

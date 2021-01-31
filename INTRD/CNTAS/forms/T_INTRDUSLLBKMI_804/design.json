@@ -1,0 +1,730 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "INTRD",
+		"subModuleId": "CNTAS",
+		"taskId": "T_INTRDUSLLBKMI_804",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_CUENTANUAE_269804",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../INTRD/relations/componentKeys.json#/CNTAS/Forms/T_INTRDUSLLBKMI_804/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "INTRD",
+				"subModuleId": "CNTAS",
+				"taskId": "T_INTRDUSLLBKMI_804",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_CUENTANUAE_269804"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "CuentaNueva",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 1,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../INTRD/entities/EN_CLIENTEWG_614.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_CUENTANEAA_268498",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group2101",
+						"order": 2,
+						"orientation": "V",
+						"queryView": {
+							"actionDesign": "Button",
+							"actions": [
+							],
+							"allowPaging": false,
+							"allowPagingStr": "F",
+							"allowSorting": false,
+							"allowSortingStr": "F",
+							"autoSync": null,
+							"componentStyle": null,
+							"confirmRowDeletion": false,
+							"confirmRowDeletionStr": "F",
+							"customEvents": [
+							],
+							"customizationLayer": 0,
+							"customizationLayerDescription": "ECU",
+							"customUrlDialog": null,
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
+							"dialogTitleLabelId": null,
+							"editCommandEnabled": false,
+							"editCommandEnabledStr": "F",
+							"editMode": "0",
+							"entityName": {
+								"$ref": "../../../../INTRD/entities/EN_CLIENTEWG_614.json#/name"
+							},
+							"hasDetail": false,
+							"hasDetailString": "F",
+							"height": null,
+							"includeQueryMembers": [
+								"AT98_CEDULARH614",
+								"AT11_CODIGOEN614",
+								"AT44_NOMBREEN614",
+								"AT56_APELLIDE614"
+							],
+							"insertCommandEnabled": false,
+							"insertCommandEnabledStr": "F",
+							"isCustomized": false,
+							"modalSize": null,
+							"modeSelection": "None",
+							"moduleIdDialog": null,
+							"multiSelectEnabledStr": "F",
+							"name": "QV_YQ80_QSS52",
+							"options": 0,
+							"pageSize": null,
+							"query": {
+								"$ref": "../../../../INTRD/CNTAS/queries/Q_CLIEENNT_KV80.json#"
+							},
+							"queryId": "Q_CLIEENNT_KV80",
+							"queryVersion": "1.0.0",
+							"queryViewCustomActions": [
+							],
+							"queryViewId": "QV_YQ80_QSS52",
+							"queryViewType": "Grid",
+							"rowCommandAppearance": 0,
+							"style": null,
+							"subModuleIdDialog": null,
+							"taskIdDialog": null,
+							"taskVersionDialog": null,
+							"typeFormDialog": null,
+							"userControl": {
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"description": "Designer Grid",
+								"name": "Designer Grid",
+								"type": "I",
+								"userControlId": "Grid"
+							},
+							"viewContainerIdDialog": null
+						},
+						"queryViewId": "QV_YQ80_QSS52",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_CLIENTEWG_614.json#/attributes/AT56_APELLIDE614"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "apellido",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXHHB_926498",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_CLIENTEWG_614.json#/attributes/AT44_NOMBREEN614"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXKCW_211498",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_CLIENTEWG_614.json#/attributes/AT11_CODIGOEN614"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "codigo",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXLFA_126498",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_CLIENTEWG_614.json#/attributes/AT98_CEDULARH614"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "cedula",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXYCK_219498",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../INTRD/entities/EN_CUENTAYHV_494.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_CUENTANEVU_508498",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group2959",
+						"order": 3,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_CUENTAYHV_494.json#/attributes/AT72_TIPOCUEE494"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": null,
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_3535TKDMVMGQNPF_249498_442",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_TIPOCUENN_56219"
+									},
+									"labelId": "LBL_INTRD_TIPOCUENN_56219",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "tipoCuenta",
+								"options": 0,
+								"order": 1,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_3535TKDMVMGQNPF_249498",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_CUENTAYHV_494.json#/attributes/AT39_SALDOZFP494"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_SALDOAPUR_86156"
+									},
+									"labelId": "LBL_INTRD_SALDOAPUR_86156",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "saldo",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_8446PVDCHTVUNKZ_468498",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONGXXKGJN_951498_302",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											},
+											{
+												"actionArgs": [
+												],
+												"actionId": "BLI4005_bli_insertarcuentaahorros",
+												"actionType": "BLI",
+												"controlId": "VA_VABUTTONGXXKGJN_951498"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_AHORROSWK_14529"
+									},
+									"labelId": "LBL_INTRD_AHORROSWK_14529",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONGXXKGJN_951498",
+								"options": 0,
+								"order": 3,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONGXXKGJN_951498",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONLBISLMH_184498_833",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											},
+											{
+												"actionArgs": [
+												],
+												"actionId": "BLI6487_bli_insertarcuentacorriente",
+												"actionType": "BLI",
+												"controlId": "VA_VABUTTONLBISLMH_184498"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_CORRIENET_82589"
+									},
+									"labelId": "LBL_INTRD_CORRIENET_82589",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONLBISLMH_184498",
+								"options": 0,
+								"order": 4,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONLBISLMH_184498",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../INTRD/entities/EN_BUSQUEDNA_124.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_CUENTANVEU_667498",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group2748",
+						"order": 1,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../INTRD/entities/EN_BUSQUEDNA_124.json#/attributes/AT48_CODIGOLJ124"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_CEDULAUSI_54146"
+									},
+									"labelId": "LBL_INTRD_CEDULAUSI_54146",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "codigo",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_1DRDNQIJHPAANVF_635498",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": "EN_CLIENTEWG_614",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../INTRD/assets/languages/INTRD.json#/INTRD/LBL/LBL_INTRD_BUSQUEDAA_16322"
+									},
+									"labelId": "LBL_INTRD_BUSQUEDAA_16322",
+									"moduleId": "INTRD"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONDHJPRSL_228498",
+								"options": 0,
+								"order": 2,
+								"queryId": "Q_CLIEENNT_KV80",
+								"queryModule": "INTRD",
+								"queryVersion": "1.0.0",
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONDHJPRSL_228498",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_CUENTANUAV_498"
+				},
+				"metadataVersion": "7.2.0.2024 BETA",
+				"modules": [
+					{
+						"moduleId": "INTRD"
+					}
+				],
+				"name": "View of CuentaNueva"
+			}
+		}
+	]
+}

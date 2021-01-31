@@ -1,0 +1,60 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CLIEENNT_KV80",
+		"controlName": "ClienteQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../INTRD/CNTAS/queries/Q_CLIEENNT_KV80.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "tipoCuenta",
+		"controlId": "VA_3535TKDMVMGQNPF_249498",
+		"controlName": "tipoCuenta",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONGXXKGJN_951498",
+		"controlName": "VA_VABUTTONGXXKGJN_951498",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONLBISLMH_184498",
+		"controlName": "VA_VABUTTONLBISLMH_184498",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	}
+]

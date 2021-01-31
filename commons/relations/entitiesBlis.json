@@ -1,0 +1,55 @@
+{
+	"INTRD": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAYHV_494",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI4005_bli_insertarcuentaahorros",
+			"nameBli": "BLI_insertarCuentaAhorros"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEWG_614",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI4548_bli_buscarcliente",
+			"nameBli": "BLI_buscarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAYHV_494",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI6487_bli_insertarcuentacorriente",
+			"nameBli": "BLI_insertarCuentaCorriente"
+		}
+	]
+}

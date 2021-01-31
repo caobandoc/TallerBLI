@@ -1,0 +1,140 @@
+{
+	"filename": "E:\\TRABAJO\\Designer\\SP\\sp\\g1_sp_cuenta_corriente.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "g1_sp_cuenta_corriente",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "login",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_sesn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org_err"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_error"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@s_sev"
+			},
+			{
+				"dataType": "descripcion",
+				"direction": "in",
+				"name": "@s_msg"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "float",
+				"direction": "in",
+				"name": "@i_saldo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_numero_cuenta"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_ced_cliente"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			}
+		],
+		"queries": [
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_cod_cliente"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_result"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

@@ -1,0 +1,48 @@
+[
+	{
+		"attributeName": "estado",
+		"controlId": "VA_1XUTPEYPFGUZPIU_580531",
+		"controlName": "attribute1",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "EstadoCivil",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONRWZNVTL_473531",
+		"controlName": "VA_VABUTTONRWZNVTL_473531",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "EstadoCivil",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_ESTADOCILL_827697",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			},
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

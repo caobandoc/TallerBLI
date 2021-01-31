@@ -1,0 +1,18 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CUENTADOT_496",
+			"isContextEntity": null,
+			"moduleId": "INTRD",
+			"related": false
+		},
+		{
+			"entityId": "EN_CUENTAOEI_615",
+			"isContextEntity": null,
+			"moduleId": "INTRD",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

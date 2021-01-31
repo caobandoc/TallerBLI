@@ -1,0 +1,141 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_CLIEENNT_KV80_418",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "BLI4548_bli_buscarcliente",
+					"actionType": "BLI"
+				},
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 7,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_CLIEENNT_KV80",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_CLIENTEWG_614",
+	"mainEntityModule": "INTRD",
+	"mainEntityName": {
+		"$ref": "../../../INTRD/relations/componentKeys.json#/Entities/EN_CLIENTEWG_614/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../INTRD/relations/componentKeys.json#/CNTAS/Queries/Q_CLIEENNT_KV80/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../INTRD/entities/EN_CLIENTEWG_614.json#/attributes/AT56_APELLIDE614"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEE08TTN253_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../INTRD/entities/EN_CLIENTEWG_614.json#/attributes/AT44_NOMBREEN614"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEE0N8N8873_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cedula",
+			"attribute": {
+				"$ref": "../../../INTRD/entities/EN_CLIENTEWG_614.json#/attributes/AT98_CEDULARH614"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEENV8VV170_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigo",
+			"attribute": {
+				"$ref": "../../../INTRD/entities/EN_CLIENTEWG_614.json#/attributes/AT11_CODIGOEN614"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEETNNN8152_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "INTRD",
+				"subModuleId": "CNTAS"
+			}
+		}
+	]
+}

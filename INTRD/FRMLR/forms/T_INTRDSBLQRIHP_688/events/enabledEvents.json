@@ -1,0 +1,44 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONJJXLFTX_570544",
+		"controlName": "VA_VABUTTONJJXLFTX_570544",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "Persona",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONRHCXZYI_901544",
+		"controlName": "VA_VABUTTONRHCXZYI_901544",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "Persona",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_EVENTOSCEE_695688",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

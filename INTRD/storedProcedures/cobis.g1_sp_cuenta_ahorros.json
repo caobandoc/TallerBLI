@@ -1,0 +1,116 @@
+{
+	"filename": "E:\\TRABAJO\\Designer\\SP\\sp\\g1_sp_cuenta_ahorros.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "g1_sp_cuenta_ahorros",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn_branch"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_culture"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_numero_cuenta"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_ced_cliente"
+			},
+			{
+				"dataType": "float",
+				"direction": "in",
+				"name": "@i_saldo"
+			}
+		],
+		"queries": [
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_cod_cliente"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_result"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

@@ -1,0 +1,30 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONARHWFJE_729138",
+		"controlName": "VA_VABUTTONARHWFJE_729138",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "CuentaOrigen",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_CUENTASYJQ_588820",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

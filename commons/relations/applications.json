@@ -1,0 +1,62 @@
+{
+	"APP_CAPACITAONC_457": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "Calculadora",
+					"subModuleId": "OPRCN",
+					"taskId": "T_INTRDTGGRJEYF_486",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Capacitacion",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_CAPACITAONC_457",
+		"mainPortletTaskId": "T_INTRDTGGRJEYF_486",
+		"modules": [
+			"INTRD"
+		],
+		"name": "Capacitacion"
+	},
+	"APP_TALLERCUEQS_934": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 0,
+					"moduleId": "INTRD",
+					"name": "CuentaNueva",
+					"subModuleId": "CNTAS",
+					"taskId": "T_INTRDUSLLBKMI_804",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "TallerCuentaQueries",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_TALLERCUEQS_934",
+		"mainPortletTaskId": "T_INTRDUSLLBKMI_804",
+		"modules": [
+			"INTRD"
+		],
+		"name": "TallerCuentaQueries"
+	}
+}

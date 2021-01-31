@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.services.T_INTRDUSLLBKMI_804">
+        <implementation class="com.cobiscorp.cobis.intrd.services.T_INTRDUSLLBKMI_804"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.cobis.intrd.services.T_INTRDUSLLBKMI_804"/>
+        </service>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.services.T_INTRDUSLLBKMI_804" private="false"/>
+        <reference name="formEventBuilder" interface="com.cobiscorp.designer.api.builder.FormEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(task.module=INTRD)(task.submodule=CNTAS)(task.id=T_INTRDUSLLBKMI_804)(task.version=1.0.0))" bind="addFormEventBuilder" unbind="removeFormEventBuilder" checked="true" strategy="event"/>
+        <reference name="VW_CUENTANUAV_498" interface="com.cobiscorp.designer.api.builder.ViewEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(view.id=VW_CUENTANUAV_498)(view.version=1.0.0))" bind="addViewEventBuilder" unbind="removeViewEventBuilder" checked="true" strategy="event"/>
+        <reference name="QV_YQ80_QSS52" interface="com.cobiscorp.designer.api.builder.QueryViewEventBuilder" cardinality="0..n" policy="dynamic" target="(queryView.id=QV_YQ80_QSS52)" bind="addQueyViewEventBuilder" unbind="removeQueyViewEventBuilder" checked="true" strategy="event"/>
+        <reference name="Q_CLIEENNT_KV80" interface="com.cobiscorp.designer.api.builder.QueryEventBuilder" cardinality="0..n" policy="dynamic" target="(&amp;(query.id=Q_CLIEENNT_KV80)(query.version=1.0.0))" bind="addQueryEventBuilder" unbind="removeQueryEventBuilder" checked="true" strategy="event"/>
+        <reference name="LoadCatalogCobis" interface="com.cobiscorp.designer.api.customization.ILoadCatalogCobis" cardinality="0..n" policy="dynamic" bind="addLoadCatalogCobis" unbind="removeLoadCatalogCobis" checked="true" strategy="event"/>
+    </scr:component>
+</components>

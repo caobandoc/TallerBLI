@@ -1,0 +1,9 @@
+{
+	"EN_CLIENTEWG_614": {
+		"queries": {
+			"Q_CLIEENNT_KV80": {
+				"$ref": "../CNTAS/queries/Q_CLIEENNT_KV80.json#"
+			}
+		}
+	}
+}
