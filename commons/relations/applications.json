@@ -1,4 +1,64 @@
 {
+	"APP_AGREGARPTTU_775": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "agregarProducto",
+					"subModuleId": "TLLRB",
+					"taskId": "T_INTRDADETHAPA_865",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "AgregarProducto",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_AGREGARPTTU_775",
+		"mainPortletTaskId": "T_INTRDADETHAPA_865",
+		"modules": [
+			"INTRD"
+		],
+		"name": "AgregarProducto"
+	},
+	"APP_AGREGARRONO_503": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "agregarRol",
+					"subModuleId": "TLLRB",
+					"taskId": "T_INTRDKUVYKUCG_304",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "AgregarRolUno",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_AGREGARRONO_503",
+		"mainPortletTaskId": "T_INTRDKUVYKUCG_304",
+		"modules": [
+			"INTRD"
+		],
+		"name": "AgregarRolUno"
+	},
 	"APP_CAPACITAONC_457": {
 		"externalModules": {
 		},
@@ -35,7 +95,7 @@
 		"forms": {
 			"INTRD": [
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "INTRD",
 					"name": "CuentaNueva",
 					"subModuleId": "CNTAS",

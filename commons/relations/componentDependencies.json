@@ -6,11 +6,19 @@
 			"labels": [
 			]
 		},
+		"EN_AGREGARLO_832": {
+			"labels": [
+			]
+		},
 		"EN_BUSQUEDNA_124": {
 			"labels": [
 			]
 		},
 		"EN_CLIENTEWG_614": {
+			"labels": [
+			]
+		},
+		"EN_CUENTAASR_369": {
 			"labels": [
 			]
 		},
@@ -34,12 +42,44 @@
 			"labels": [
 			]
 		},
+		"EN_PRODUCTOO_741": {
+			"labels": [
+			]
+		},
 		"EN_SUMARZHSD_890": {
 			"labels": [
 			]
 		}
 	},
 	"Forms": {
+		"T_INTRDADETHAPA_865": {
+			"blis": [
+				"BLI9227_bli_agregarcuentaahorros"
+			],
+			"entities": {
+				"EN_CUENTAASR_369": [
+					"AT19_CLIENTEE369",
+					"AT20_BANCODIL369",
+					"AT30_SALDOLED369"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_CODIGOBAC_65808",
+				"LBL_INTRD_CODIGOCNE_41767",
+				"LBL_INTRD_NUEVOPROU_45881",
+				"LBL_INTRD_SALDOCNZX_74974"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
 		"T_INTRDBANOJWGX_697": {
 			"blis": [
 			],
@@ -65,6 +105,34 @@
 				"LBL_INTRD_INACINECO_10698",
 				"LBL_INTRD_RESTAURRR_99118",
 				"LBL_INTRD_SELECCILI_67921"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDKUVYKUCG_304": {
+			"blis": [
+				"BLI6523_bli_agregarrol"
+			],
+			"entities": {
+				"EN_AGREGARLO_832": [
+					"AT23_DESCRION832",
+					"AT66_ESTADOAY832",
+					"AT99_USUARIOO832"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_AGREGARIP_45005",
+				"LBL_INTRD_DESCRIPNI_63786",
+				"LBL_INTRD_ESTADORIR_43716",
+				"LBL_INTRD_USUARIOKM_73417"
 			],
 			"queries": {
 			},

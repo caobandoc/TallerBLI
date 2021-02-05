@@ -1,0 +1,66 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_CUENTAASR_369",
+			"module": {
+				"moduleId": "INTRD",
+				"moduleName": "Introduccion"
+			},
+			"name": "CuentaAhorros"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		},
+		{
+			"attributeId": "AT19_CLIENTEE369",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_CUENTAASR_369",
+			"format": "",
+			"name": "@i_ca_cliente",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT30_SALDOLED369",
+			"bddType": "decimal",
+			"dataType": "MONEY",
+			"direction": "in",
+			"entityId": "EN_CUENTAASR_369",
+			"format": "",
+			"name": "@i_ca_saldo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_agregarCuentaAhorros",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI9227_bli_agregarcuentaahorros",
+	"patternName": "BLI_agregarCuentaAhorros",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g6_sp_cuenta_ahorros",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

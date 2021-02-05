@@ -50,6 +50,57 @@
 			},
 			"idBli": "BLI6487_bli_insertarcuentacorriente",
 			"nameBli": "BLI_insertarCuentaCorriente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_AGREGARLO_832",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI6523_bli_agregarrol",
+			"nameBli": "BLI_agregarRol"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAASR_369",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9227_bli_agregarcuentaahorros",
+			"nameBli": "BLI_agregarCuentaAhorros"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_741",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9399_bli_agregarproducto",
+			"nameBli": "BLI_agregarProducto"
 		}
 	]
 }

@@ -1,0 +1,320 @@
+{
+	"filename": "E:\\TRABAJO\\Designer\\SP\\spTarea\\sp_producto.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_producto",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "login",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_sesn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org_err"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_error"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@s_sev"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_msg"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "bit",
+				"direction": "in",
+				"name": "@t_show_version"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_tipo_h"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@i_modo"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@i_producto"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_descripcion"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_tipo"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_abreviatura"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_estado"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_saldo_minimo"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_costo"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_formato_fecha"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "55e98510-d255-4d6e-b09f-d5cde1db8005",
+				"columns": [
+					"Producto",
+					"Tipo",
+					"Descripcion",
+					"Abreviatura",
+					"Fecha Apert.",
+					"Estado"
+				],
+				"editMode": false,
+				"queryText": "select \u0027Producto\u0027     = pd_producto,\r\n            \u0027Tipo\u0027         = pd_tipo,\r\n            \u0027Descripcion\u0027  = pd_descripcion,\r\n            \u0027Abreviatura\u0027  = pd_abreviatura,\r\n            \u0027Fecha Apert.\u0027 = convert(char(10), pd_fecha_apertura, @i_formato_fecha),\r\n            \u0027Estado\u0027       = pd_estado\r\n     from"
+			},
+			{
+				"_idQuery": "7a24a7e7-4936-44d1-8e5e-800372c2abea",
+				"columns": [
+					"Producto",
+					"Tipo",
+					"Descripcion"
+				],
+				"editMode": false,
+				"queryText": "select \u0027Producto\u0027    = pd_producto,\r\n            \u0027Tipo\u0027        = pd_tipo,\r\n            \u0027Descripcion\u0027 = pd_descripcion\r\n     from"
+			},
+			{
+				"_idQuery": "e10b3c75-e739-48c8-b014-5cdd8e83a939",
+				"columns": [
+					"COD. PRODUCTO",
+					"COD. TIPO",
+					"DESCRIPCION",
+					"ABREVIATURA"
+				],
+				"editMode": false,
+				"queryText": "select \u0027COD. PRODUCTO\u0027 = pd_producto,\r\n                \u0027COD. TIPO\u0027     = pd_tipo,\r\n                \u0027DESCRIPCION\u0027   = pd_descripcion,\r\n                \u0027ABREVIATURA\u0027   = pd_abreviatura\r\n         from"
+			},
+			{
+				"_idQuery": "1fb5b8d5-7b24-4c76-af43-e39cd7795e15",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}"
+				],
+				"editMode": false,
+				"queryText": "select pd_tipo,\r\n                pd_descripcion,\r\n                pd_abreviatura\r\n         from"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "datetime",
+				"name": "@i_today"
+			},
+			{
+				"dataType": "char",
+				"name": "@o_abreviatura"
+			},
+			{
+				"dataType": "money",
+				"name": "@o_costo"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@o_descripcion"
+			},
+			{
+				"dataType": "char",
+				"name": "@o_estado"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@o_fecha_apertura"
+			},
+			{
+				"dataType": "tinyint",
+				"name": "@o_producto"
+			},
+			{
+				"dataType": "money",
+				"name": "@o_saldo_minimo"
+			},
+			{
+				"dataType": "char",
+				"name": "@o_tipo"
+			},
+			{
+				"dataType": "char",
+				"name": "@v_abreviatura"
+			},
+			{
+				"dataType": "money",
+				"name": "@v_costo"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@v_descripcion"
+			},
+			{
+				"dataType": "estado",
+				"name": "@v_estado"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@v_fecha_apertura"
+			},
+			{
+				"dataType": "money",
+				"name": "@v_saldo_minimo"
+			},
+			{
+				"dataType": "char",
+				"name": "@v_valor"
+			},
+			{
+				"dataType": "char",
+				"name": "@w_abreviatura"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_cambio"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_codigo_c"
+			},
+			{
+				"dataType": "money",
+				"name": "@w_costo"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@w_descripcion"
+			},
+			{
+				"dataType": "estado",
+				"name": "@w_estado"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@w_fecha_apertura"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "money",
+				"name": "@w_saldo_minimo"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@w_today"
+			},
+			{
+				"dataType": "char",
+				"name": "@w_valor"
+			}
+		]
+	}
+}

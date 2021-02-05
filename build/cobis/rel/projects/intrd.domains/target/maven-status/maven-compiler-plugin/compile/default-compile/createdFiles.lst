@@ -1,9 +1,12 @@
+com\cobiscorp\cobis\intrd\model\Producto.class
 com\cobiscorp\cobis\intrd\model\CuentaDestino.class
 com\cobiscorp\cobis\intrd\model\CuentaOrigen.class
 com\cobiscorp\cobis\intrd\model\Cliente.class
 com\cobiscorp\cobis\intrd\model\Cuenta.class
 com\cobiscorp\cobis\intrd\model\EstadoCivil.class
+com\cobiscorp\cobis\intrd\model\CuentaAhorros.class
 com\cobiscorp\cobis\intrd\model\Persona.class
+com\cobiscorp\cobis\intrd\model\AgregarRol.class
 com\cobiscorp\cobis\intrd\model\InfoEstadoCivil.class
 com\cobiscorp\cobis\intrd\model\BusquedaCliente.class
 com\cobiscorp\cobis\intrd\model\Suma.class

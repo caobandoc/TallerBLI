@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_AGREGARLO_832",
+			"isContextEntity": null,
+			"moduleId": "INTRD",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

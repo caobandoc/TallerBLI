@@ -26,10 +26,14 @@
 				{
 					"subModuleId": "CNTAS",
 					"subModuleName": "Cuentas"
+				},
+				{
+					"subModuleId": "TLLRB",
+					"subModuleName": "TallerBlis"
 				}
 			]
 		}
 	],
 	"projectName": "Capacitacion",
-	"subModuleId": "CNTAS"
+	"subModuleId": "TLLRB"
 }

@@ -35,4 +35,31 @@
         <property name="bli.id" type="String" value="BLI6487_bli_insertarcuentacorriente"/>
         <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI6487_bli_insertarcuentacorriente"/>
     </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI6523_bli_agregarrol">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI6523_bli_agregarrol"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD"/>
+        <property name="bli.id" type="String" value="BLI6523_bli_agregarrol"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI6523_bli_agregarrol"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI9227_bli_agregarcuentaahorros">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI9227_bli_agregarcuentaahorros"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD"/>
+        <property name="bli.id" type="String" value="BLI9227_bli_agregarcuentaahorros"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI9227_bli_agregarcuentaahorros"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.bli.services.impl.BLI9399_bli_agregarproducto">
+        <implementation class="com.cobiscorp.cobis.intrd.bli.services.impl.BLI9399_bli_agregarproducto"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.bli.api.IBLIExecutor"/>
+        </service>
+        <property name="task.module" type="String" value="INTRD"/>
+        <property name="bli.id" type="String" value="BLI9399_bli_agregarproducto"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.bli.services.impl.BLI9399_bli_agregarproducto"/>
+    </scr:component>
 </components>

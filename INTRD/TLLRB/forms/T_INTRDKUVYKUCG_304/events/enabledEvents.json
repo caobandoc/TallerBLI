@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONTJDVETX_885149",
+		"controlName": "VA_VABUTTONTJDVETX_885149",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "AgregarRol",
+		"eventsType": "visualAttributeEventType"
+	}
+]

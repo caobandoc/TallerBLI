@@ -1,0 +1,477 @@
+{
+	"filename": "E:\\TRABAJO\\Designer\\SP\\spTarea\\sp_ad_rol.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_ad_rol",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "login",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_sesn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org_err"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_error"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@s_sev"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_msg"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "bit",
+				"direction": "in",
+				"name": "@t_show_version"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@mc_validacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_tipo"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@i_modo"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@i_rol"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@i_filial"
+			},
+			{
+				"dataType": "tinyint",
+				"direction": "in",
+				"name": "@i_oficina"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_descripcion"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@i_creador"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@i_fecha_crea"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@i_time_out"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_central_transmit"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_estado"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_formato_fecha"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_admin_seg"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@i_departamento"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@i_funcionario"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@o_admin_seg"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@o_departamento"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@o_detalle"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@o_oficina"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@o_des_oficina"
+			},
+			{
+				"dataType": "int",
+				"direction": "out",
+				"name": "@o_mc_authorizationId"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "065aad4e-2308-4740-8652-bc394d222c87",
+				"columns": [
+					"{0}"
+				],
+				"editMode": false,
+				"queryText": "select @w_siguiente"
+			},
+			{
+				"_idQuery": "bb91fcba-b478-4fe4-aac6-72f87fbdc813",
+				"columns": [
+					"Cod. Rol",
+					"Estado",
+					"Descripcion",
+					"Cod. Filial",
+					"Filial",
+					"Creador",
+					"Nombre Creador",
+					"Protector Pantalla"
+				],
+				"editMode": false,
+				"queryText": "select \u0027Cod. Rol\u0027           = ro_rol,\r\n          \u0027Estado  \u0027           = ro_estado,\r\n          \u0027Descripcion\u0027        = ro_descripcion,\r\n          \u0027Cod. Filial\u0027        = ro_filial,\r\n          \u0027Filial\u0027             = fi_abreviatura,\r\n          \u0027Creador\u0027            = ro_creador,\r\n          \u0027Nombre Creador\u0027     = fu_nombre,\r\n          \u0027Protector Pantalla\u0027 = ro_time_out\r\n   from"
+			},
+			{
+				"_idQuery": "c17fbffa-7a29-43fd-8672-4d237a84a26f",
+				"columns": [
+					"Cod. Rol",
+					"Estado",
+					"Descripcion",
+					"Cod. Filial",
+					"Filial",
+					"Creador",
+					"Nombre Creador",
+					"Protector Pantalla"
+				],
+				"editMode": false,
+				"queryText": "select \u0027Cod. Rol\u0027           = ro_rol,\r\n             \u0027Estado  \u0027           = ro_estado,\r\n             \u0027Descripcion\u0027        = ro_descripcion,\r\n             \u0027Cod. Filial\u0027        = ro_filial,\r\n             \u0027Filial\u0027             = fi_abreviatura,\r\n             \u0027Creador\u0027            = ro_creador,\r\n             \u0027Nombre Creador\u0027     = fu_nombre,\r\n             \u0027Protector Pantalla\u0027 = ro_time_out\r\n      from"
+			},
+			{
+				"_idQuery": "9d51f02b-6437-436c-894f-4237e3d66e09",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}",
+					"{3}",
+					"{4}",
+					"{5}",
+					"{6}",
+					"{7}",
+					"{8}",
+					"{9}"
+				],
+				"editMode": false,
+				"queryText": "select @i_rol,         @o_descripcion,        @o_filial,\r\n          @o_nombre_f,    @o_creador,\r\n          @o_nombre_crea, convert(char(10),      @o_fecha_crea, @i_formato_fecha),\r\n          @o_time_out,    @o_estado,@o_admin_seg"
+			},
+			{
+				"_idQuery": "d08ac513-ba4a-43e9-aa3a-4da3c93fbadb",
+				"columns": [
+					"Codigo",
+					"Rol",
+					"Filial",
+					"Protector Pantalla",
+					"Estado",
+					"Adm.Seguridad"
+				],
+				"editMode": false,
+				"queryText": "select \u0027Codigo\u0027             = ro_rol,\r\n             \u0027Rol\u0027                = substring(ro_descripcion, 1, 20),\r\n             \u0027Filial\u0027             = substring(fi_nombre, 1, 20),\r\n             \u0027Protector Pantalla\u0027 = ro_time_out,\r\n             \u0027Estado\u0027             = ro_estado,\r\n             \u0027Adm.Seguridad\u0027      = ro_admin_seg\r\n      from"
+			},
+			{
+				"_idQuery": "e8e9729b-e0e7-4de9-940a-e48b0e6bd891",
+				"columns": [
+					"Codigo",
+					"Rol"
+				],
+				"editMode": false,
+				"queryText": "select \u0027Codigo\u0027 = ro_rol,\r\n             \u0027Rol\u0027    = ro_descripcion\r\n      from"
+			},
+			{
+				"_idQuery": "f122591b-5539-4510-85cd-beb3cffbf0cc",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}",
+					"{3}",
+					"{4}"
+				],
+				"editMode": false,
+				"queryText": "select ro_descripcion,\r\n             substring(fi_nombre, 1, 20),\r\n             ro_time_out,\r\n             ro_estado,\r\n             ro_admin_seg\r\n      from"
+			},
+			{
+				"_idQuery": "93e96109-a837-4248-80b4-01c876d10bc2",
+				"columns": [
+					"Codigo",
+					"Rol",
+					"Filial",
+					"Protector Pantalla",
+					"Estado"
+				],
+				"editMode": false,
+				"queryText": "select \u0027Codigo\u0027             = ro_rol,\r\n             \u0027Rol\u0027                = ro_descripcion,\r\n             \u0027Filial\u0027             = fi_nombre,\r\n             \u0027Protector Pantalla\u0027 = ro_time_out,\r\n             \u0027Estado\u0027             = ro_estado\r\n      from"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "smallint",
+				"name": "@o_creador"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@o_descripcion"
+			},
+			{
+				"dataType": "estado",
+				"name": "@o_estado"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@o_fecha_crea"
+			},
+			{
+				"dataType": "tinyint",
+				"name": "@o_filial"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@o_nombre_crea"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@o_nombre_f"
+			},
+			{
+				"dataType": "tinyint",
+				"name": "@o_rol"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@o_time_out"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@v_creador"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@v_descripcion"
+			},
+			{
+				"dataType": "estado",
+				"name": "@v_estado"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@v_fecha_crea"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@v_fecha_ult_mod"
+			},
+			{
+				"dataType": "tinyint",
+				"name": "@v_filial"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@v_oficina"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@v_time_out"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_admin_seg"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_clave"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_cmdtransrv"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@w_comando"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@w_contador"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@w_creador"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@w_departamento"
+			},
+			{
+				"dataType": "descripcion",
+				"name": "@w_descripcion"
+			},
+			{
+				"dataType": "estado",
+				"name": "@w_estado"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@w_fecha_crea"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@w_fecha_ult_mod"
+			},
+			{
+				"dataType": "tinyint",
+				"name": "@w_filial"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_nt_nombre"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@w_num_nodos"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@w_oficina"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "tinyint",
+				"name": "@w_rol"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_siguiente"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			},
+			{
+				"dataType": "smallint",
+				"name": "@w_time_out"
+			},
+			{
+				"dataType": "datetime",
+				"name": "@w_today"
+			}
+		]
+	}
+}

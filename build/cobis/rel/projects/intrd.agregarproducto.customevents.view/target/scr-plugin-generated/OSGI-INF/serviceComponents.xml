@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONTNHFWDH_620468_676_ViewEvent">
+        <implementation class="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONTNHFWDH_620468_676_ViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.ViewEventBuilder"/>
+        </service>
+        <property name="view.id" type="String" value="VW_AGREGARPDT_468"/>
+        <property name="view.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONTNHFWDH_620468_676_ViewEvent"/>
+        <reference name="iExecuteCommandVA_VABUTTONTNHFWDH_620468" interface="com.cobiscorp.designer.api.customization.IExecuteCommand" cardinality="1..1" policy="dynamic" target="(&amp;(view.id=VW_AGREGARPDT_468)(view.version=1.0.0)(view.controlId=VA_VABUTTONTNHFWDH_620468))" bind="setiExecuteCommandVA_VABUTTONTNHFWDH_620468" unbind="unsetiExecuteCommandVA_VABUTTONTNHFWDH_620468"/>
+        <reference name="bLI9227_bli_agregarcuentaahorros" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI9227_bli_agregarcuentaahorros)" bind="setBLI9227_bli_agregarcuentaahorros" unbind="unsetBLI9227_bli_agregarcuentaahorros"/>
+    </scr:component>
+</components>

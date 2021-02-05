@@ -30,11 +30,17 @@
 		"EN_1ZQHWOKSZ_262": {
 			"name": "EstadoCivil"
 		},
+		"EN_AGREGARLO_832": {
+			"name": "AgregarRol"
+		},
 		"EN_BUSQUEDNA_124": {
 			"name": "BusquedaCliente"
 		},
 		"EN_CLIENTEWG_614": {
 			"name": "Cliente"
+		},
+		"EN_CUENTAASR_369": {
+			"name": "CuentaAhorros"
 		},
 		"EN_CUENTADOT_496": {
 			"name": "CuentaDestino"
@@ -50,6 +56,9 @@
 		},
 		"EN_PERSONAMI_230": {
 			"name": "Persona"
+		},
+		"EN_PRODUCTOO_741": {
+			"name": "Producto"
 		},
 		"EN_SUMARZHSD_890": {
 			"name": "Suma"
@@ -87,6 +96,22 @@
 		"Forms": {
 			"T_INTRDTGGRJEYF_486": {
 				"name": "Calculadora"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"TLLRB": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDADETHAPA_865": {
+				"name": "agregarProducto"
+			},
+			"T_INTRDKUVYKUCG_304": {
+				"name": "agregarRol"
 			}
 		},
 		"Queries": {
